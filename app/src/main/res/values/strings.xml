@@ -102,10 +102,10 @@
 
     <string name="service_active">Active</string>
     <string name="download_complete">Download Complete</string>
-    <string name="pending">Pending...</string>
+    <string name="pending">Pending…</string>
     <string name="finished">Finished</string>
     <string name="downloading">Downloading</string>
-    <string name="waiting">Waiting...</string>
+    <string name="waiting">Waiting…</string>
     <string name="now_playing">Now Playing</string>
     <string name="unknown_caller">Unknown Caller</string>
     <string name="incoming_call">Call</string>
@@ -159,12 +159,15 @@
 
     <string name="global_settings">Global Settings</string>
     <string name="island_appearance">Island Appearance</string>
-    <string name="setting_float">Show Floating Island</string>
-    <string name="setting_float_desc">Show heads-up notification</string>
-    <string name="setting_shade">Show in Shade</string>
-    <string name="setting_shade_desc">Keep in notification center</string>
-    <string name="setting_timeout">Timeout</string>
+    <string name="setting_float">Heads-up Popup</string>
+    <string name="setting_float_desc">Show the full notification banner briefly before minimizing to the Island.</string>
+
+    <string name="setting_shade">Notification Panel</string>
+    <string name="setting_shade_desc">Keep the notification visible in the system shade. If disabled, it only appears as an Island.</string>
+
+    <string name="setting_timeout">Auto-Minimize Delay</string>
     <string name="seconds_suffix">%ds</string>
+
     <string name="use_global_default">Use Global Defaults</string>
     <string name="customize_app">Customize</string>
     <string name="override_settings">Override Settings</string>
@@ -205,4 +208,117 @@
     <string name="configure_now">Configure Now</string>
 
     <string name="badge_new">NEW</string>
+
+    <string name="custom_design">Custom Design</string>
+    <string name="nav_layout_title">Navigation Layout</string>
+    <string name="nav_layout_desc">Choose where information appears</string>
+    <string name="left_content">Left Side</string>
+    <string name="right_content">Right Side</string>
+
+    <string name="nav_content_instruction">Instruction</string>
+    <string name="nav_content_distance">Distance</string>
+    <string name="nav_content_eta">Arrival Time</string>
+    <string name="nav_content_distance_eta">Dist. &amp; Time</string>
+    <string name="nav_content_none">Empty</string>
+
+    <string name="channel_active_islands">Active Islands</string>
+
+    <string name="cd_toggle_app">Toggle %s</string>
+    <string name="cd_configure_app">Configure %s</string>
+    <string name="cd_enable_type">Enable %s notifications</string>
+    <string name="cd_disable_type">Disable %s notifications</string>
+    <string name="cd_nav_edit">Edit navigation layout</string>
+    <string name="cd_app_state_active">Active</string>
+    <string name="cd_app_state_inactive">Inactive</string>
+
+    <string name="cd_move_up">Move item up</string>
+    <string name="cd_move_down">Move item down</string>
+    <string name="cd_drag_handle">Drag handle. Double tap and hold to reorder, or use actions to move.</string>
+    <string name="cd_app_icon">App Icon for %s</string>
+    <string name="cd_nav_preview">Navigation Preview: %1$s on left, %2$s on right</string>
+    <string name="cd_expand_changelog">Expand version details</string>
+    <string name="cd_collapse_changelog">Collapse version details</string>
+    <string name="cd_configuration_group">Configuration Settings</string>
+    <string name="cd_about_group">About Information</string>
+
+    <string name="nav_preview_instruction">Turn Right</string>
+    <string name="nav_preview_distance">200m</string>
+    <string name="nav_preview_time">10:30</string>
+
+    <string name="blocked_terms">Blocked Terms</string>
+    <string name="blocked_terms_desc">Notifications containing these words will be ignored.</string>
+    <string name="add_blocked_word">Add word (e.g. \'Spoiler\')</string>
+    <string name="add">Add</string>
+    <string name="remove">Remove</string>
+    <string name="tap_to_configure_rules">Tap an app to configure specific block rules.</string>
+    <string name="spoiler_subtitle">Manage spoiler protection and filters</string>
+
+    <string name="active_notifications_title">Notification Types</string>
+    <string name="active_notifications_subtitle">%d active</string>
+    <string name="appearance_use_defaults_desc">Using system defaults for animation speed and floating behavior.</string>
+    <string name="blocked_terms_active_count">%d rules active</string>
+
+    <string name="global_rules">Global Rules</string>
+    <string name="app_specific_rules">App Specific Rules</string>
+    <string name="manage_app_rules_desc">Customize filters for specific applications</string>
+    <string name="blocked_terms_count">%d terms blocked</string>
+    <string name="no_active_rules">No active rules</string>
+
+    <string name="setup_health_title">System Compatibility</string>
+    <string name="check_device">Device: %s</string>
+    <string name="check_os_version">OS: %s</string>
+    <string name="req_hyperos">Requires HyperOS 3.0+ (Android 15+)</string>
+    <string name="req_xiaomi">Xiaomi/Redmi/Poco device required</string>
+    <string name="check_autostart">Background Autostart</string>
+    <string name="check_autostart_desc">Required for the service to restart after reboot.</string>
+    <string name="grant_permission">Grant</string>
+    <string name="status_ok">Compatible</string>
+    <string name="status_fail">Incompatible</string>
+    <string name="status_unknown">Unknown</string>
+
+    <string name="warning_cn_rom_title">China ROM Detected</string>
+    <string name="warning_cn_rom_desc">Your device appears to be running a Chinese firmware. Xiaomi modifies notification internals significantly on CN ROMs. Features might be unstable or not work at all.</string>
+
+    <string name="system_version">System Version</string>
+
+    <string name="call_incoming">Incoming Call</string>
+    <string name="call_ongoing">Active Call</string>
+
+    <string-array name="call_keywords_hangup">
+        <item>hang</item>
+        <item>end</item>
+        <item>decline</item>
+        <item>reject</item>
+    </string-array>
+    <string-array name="call_keywords_answer">
+        <item>answer</item>
+        <item>accept</item>
+    </string-array>
+    <string-array name="call_keywords_speaker">
+        <item>speaker</item>
+        <item>audio</item>
+    </string-array>
+
+    <string name="title_0_3_0">The Global Update</string>
+    <string name="changelog_0_3_0">
+        <b>Hidden Notification 👻</b>\n
+        New option to hide notifications from the system panel while keeping the Island active. Check Global Settings!\n\n
+        <b>New Languages 🌍</b>\n
+        Special thanks to our community for these translations:\n
+        • 🇧🇷 Portuguese (Brazil)\n
+        • 🇵🇱 Polish\n
+        • 🇰🇷 Korean\n\n
+        • 🇺🇦 Ukranian\n\n
+        <b>Navigation Customization 🧭</b>\n
+        You can now choose what information appears on the Left and Right sides of the Navigation Island (Distance, ETA, Instruction).\n\n
+        <b>Spoiler Protection 🛡️</b>\n
+        New "Blocked Terms" feature. Define words globally or per-app to prevent specific notifications from showing up on the Island.\n\n
+        <b>Call Improvements 📞</b>\n
+        Improved detection logic to support a wider range of VoIP and Dialer applications.\n\n
+        <b>Fixes &amp; Improvements 🛠️</b>\n
+        • Fixed a critical bug where the app would get stuck loading after a reboot.\n
+        • Fixed notifications sometimes showing raw package names (e.g. "com.google...") instead of content.\n
+        • Redesigned App Configuration sheet for better usability.\n
+        • Improved Compatibility Check screen with detailed device info.
+    </string>
 </resources>

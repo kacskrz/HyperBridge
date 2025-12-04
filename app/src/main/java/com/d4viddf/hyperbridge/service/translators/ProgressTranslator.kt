@@ -51,7 +51,7 @@ class ProgressTranslator(context: Context) : BaseTranslator(context) {
         builder.addPicture(getTransparentPicture(hiddenKey))
 
         if (isFinished) {
-            builder.addPicture(getColoredPicture(tickKey, android.R.drawable.checkbox_on_background, greenColor))
+            builder.addPicture(getColoredPicture(tickKey, R.drawable.rounded_check_circle_24, greenColor))
         }
 
         val actions = extractBridgeActions(sbn)
@@ -70,7 +70,6 @@ class ProgressTranslator(context: Context) : BaseTranslator(context) {
             builder.setProgressBar(
                 progress = percent, // Must be 0-100 Int
                 color = blueColor,
-                picForwardKey = picKey // Icon moves with progress head
             )
         }
 
@@ -93,9 +92,10 @@ class ProgressTranslator(context: Context) : BaseTranslator(context) {
                     picKey,
                     "", // Title inside circle (Empty)
                     percent,
-                    blueColor
+                    blueColor,
+                    true,
                 )
-                builder.setSmallIslandCircularProgress(picKey, percent, blueColor)
+                builder.setSmallIslandCircularProgress(picKey, percent, blueColor, true)
             } else {
                 builder.setSmallIslandIcon(picKey)
             }

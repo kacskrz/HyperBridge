@@ -47,7 +47,7 @@
     <string name="tab_library">Biblioteca</string>
     <string name="title_active_bridges">Bridges Activos</string>
     <string name="title_library">Biblioteca de aplicaciones</string>
-    <string name="search_hint">Buscar aplicaciones...</string>
+    <string name="search_hint">Buscar aplicaciones…</string>
     <string name="sort_az">Orden: A-Z</string>
     <string name="sort_za">Orden: Z-A</string>
 
@@ -172,12 +172,15 @@
 
     <string name="global_settings">Ajustes Globales</string>
     <string name="island_appearance">Apariencia de Isla</string>
-    <string name="setting_float">Isla Flotante</string>
-    <string name="setting_float_desc">Mostrar notificación emergente</string>
-    <string name="setting_shade">Mostrar en Panel</string>
-    <string name="setting_shade_desc">Mantener en centro de notificaciones</string>
-    <string name="setting_timeout">Duración</string>
+    <string name="setting_float">Notificación Emergente</string>
+    <string name="setting_float_desc">Muestra el banner completo antes de minimizarlo en la Isla.</string>
+
+    <string name="setting_shade">Panel de Notificaciones</string>
+    <string name="setting_shade_desc">Mantiene la notificación en el panel del sistema. Si se desactiva, solo se verá como Isla.</string>
+
+    <string name="setting_timeout">Retardo de Minimización</string>
     <string name="seconds_suffix">%ds</string>
+
     <string name="use_global_default">Usar valores globales</string>
     <string name="customize_app">Personalizar</string>
     <string name="override_settings">Sobrescribir ajustes</string>
@@ -210,4 +213,114 @@
     <string name="configure_now">Configurar</string>
 
     <string name="badge_new">NUEVO</string>
+
+    <string name="custom_design">Diseño Personalizado</string>
+    <string name="nav_layout_title">Diseño de Navegación</string>
+    <string name="nav_layout_desc">Elige dónde aparece la información</string>
+    <string name="left_content">Lado Izquierdo</string>
+    <string name="right_content">Lado Derecho</string>
+
+    <string name="nav_content_instruction">Instrucción</string>
+    <string name="nav_content_distance">Distancia</string>
+    <string name="nav_content_eta">Hora de Llegada</string>
+    <string name="nav_content_distance_eta">Dist. y Hora</string>
+    <string name="nav_content_none">Vacío</string>
+
+    <string name="channel_active_islands">Islas Activas</string>
+
+    <string name="cd_toggle_app">Alternar %s</string>
+    <string name="cd_configure_app">Configurar %s</string>
+    <string name="cd_enable_type">Activar notificaciones de %s</string>
+    <string name="cd_disable_type">Desactivar notificaciones de %s</string>
+    <string name="cd_nav_edit">Editar diseño de navegación</string>
+    <string name="cd_app_state_active">Activo</string>
+    <string name="cd_app_state_inactive">Inactivo</string>
+
+    <string name="nav_preview_instruction">Girar a la derecha</string>
+    <string name="nav_preview_distance">200m</string>
+    <string name="nav_preview_time">10:30</string>
+
+    <string name="blocked_terms">Términos Bloqueados</string>
+    <string name="blocked_terms_desc">Se ignorarán las notificaciones que contengan estas palabras.</string>
+    <string name="add_blocked_word">Añadir palabra (ej. \'Spoiler\')</string>
+    <string name="add">Añadir</string>
+    <string name="remove">Eliminar</string>
+    <string name="tap_to_configure_rules">Toca una app para configurar reglas de bloqueo específicas.</string>
+    <string name="spoiler_subtitle">Gestionar protección contra spoilers y filtros</string>
+
+    <string name="active_notifications_title">Tipos de Notificación</string>
+    <string name="active_notifications_subtitle">%d activas</string>
+    <string name="appearance_use_defaults_desc">Usando valores predeterminados del sistema para velocidad y comportamiento flotante.</string>
+    <string name="blocked_terms_active_count">%d reglas activas</string>
+
+    <string name="global_rules">Reglas Globales</string>
+    <string name="app_specific_rules">Reglas por Aplicación</string>
+    <string name="manage_app_rules_desc">Personaliza filtros para aplicaciones específicas</string>
+    <string name="blocked_terms_count">%d términos bloqueados</string>
+    <string name="no_active_rules">Sin reglas activas</string>
+
+    <string name="setup_health_title">Compatibilidad del Sistema</string>
+    <string name="check_device">Dispositivo: %s</string>
+    <string name="check_os_version">SO: %s</string>
+    <string name="req_hyperos">Requiere HyperOS 3.0+ (Android 15+)</string>
+    <string name="req_xiaomi">Se requiere dispositivo Xiaomi/Redmi/Poco</string>
+    <string name="check_autostart">Inicio Automático</string>
+    <string name="check_autostart_desc">Necesario para que el servicio arranque tras reiniciar.</string>
+    <string name="grant_permission">Conceder</string>
+    <string name="status_ok">Compatible</string>
+    <string name="status_fail">Incompatible</string>
+    <string name="status_unknown">Desconocido</string>
+
+    <string name="warning_cn_rom_title">ROM China Detectada</string>
+    <string name="warning_cn_rom_desc">Tu dispositivo parece ejecutar un firmware chino. Xiaomi modifica drásticamente las notificaciones en estas ROMs. Las funciones podrían ser inestables o no funcionar.</string>
+
+    <string name="system_version">Versión del Sistema</string>
+
+    <string name="call_incoming">Llamada Entrante</string>
+    <string name="call_ongoing">Llamada en Curso</string>
+
+    <string-array name="call_keywords_hangup">
+        <item>colgar</item>
+        <item>finalizar</item>
+        <item>rechazar</item>
+        <item>hang</item>
+        <item>end</item>
+        <item>decline</item>
+        <item>reject</item>
+    </string-array>
+    <string-array name="call_keywords_answer">
+        <item>responder</item>
+        <item>contestar</item>
+        <item>descoger</item>
+        <item>answer</item>
+        <item>accept</item>
+    </string-array>
+    <string-array name="call_keywords_speaker">
+        <item>altavoz</item>
+        <item>audio</item>
+        <item>speaker</item>
+    </string-array>
+
+    <string name="title_0_3_0">La Actualización Global</string>
+    <string name="changelog_0_3_0">
+        <b>Notificación Oculta 👻</b>\n
+        Nueva opción para ocultar notificaciones del panel del sistema manteniendo la Isla activa. ¡Revisa los Ajustes Globales!\n\n
+        <b>Nuevos Idiomas 🌍</b>\n
+        ¡Un agradecimiento especial a la comunidad por estas traducciones!\n
+        • 🇧🇷 Portugués (Brasil)\n
+        • 🇵🇱 Polaco\n
+        • 🇰🇷 Coreano\n\n
+        • 🇺🇦 Ucraniano\n\n
+        <b>Personalización de Navegación 🧭</b>\n
+        Ahora puedes elegir qué información aparece a la izquierda y derecha de la Isla de Navegación (Distancia, Hora de llegada, Instrucción).\n\n
+        <b>Protección Anti-Spoilers 🛡️</b>\n
+        Nueva función de "Términos Bloqueados". Define palabras globalmente o por aplicación para evitar que ciertas notificaciones aparezcan en la Isla.\n\n
+        <b>Mejoras en Llamadas 📞</b>\n
+        Mejorada la lógica de detección para soportar más aplicaciones de VoIP y Teléfono.\n\n
+        <b>Correcciones y Mejoras 🛠️</b>\n
+        • Solucionado un error crítico donde la app se quedaba cargando tras reiniciar.\n
+        • Corregido error donde las notificaciones mostraban el nombre del paquete (ej. "com.google...") en lugar del contenido.\n
+        • Rediseñado el panel de Configuración de App.\n
+        • Mejorada la pantalla de Comprobación de Compatibilidad con info detallada.
+    </string>
 </resources>
