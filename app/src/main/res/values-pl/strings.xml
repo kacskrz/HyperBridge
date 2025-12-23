@@ -389,8 +389,13 @@
     <string name="widget_settings_error">Nie można edytować ustawień tego widżetu</string>
 
     <string name="widget_picker_title">Dodaj widżet</string>
-    <string name="search_apps_placeholder">Wyszukaj aplikacje...</string>
-    <string name="widget_count_fmt">%d widżetów</string>
+    <string name="search_apps_placeholder">Wyszukaj aplikacje…</string>
+    <plurals name="widget_count_fmt">
+        <item quantity="other">%d widżetów</item>
+        <item quantity="many">%d widżetów</item>
+        <item quantity="few">%d widżety</item>
+        <item quantity="one">%d widżet</item>
+    </plurals>
 
     <string name="widget_config_title">Konfiguruj widżet</string>
     <string name="widget_settings_button">Ustawienia widżetu</string>
@@ -405,11 +410,21 @@
 
     <string name="config_timeout_title">Zamknij automatycznie</string>
     <string name="config_timeout_desc">Zamknij wyspę po opóźnieniu</string>
-    <string name="config_timeout_fmt">%d sekund</string>
+    <plurals name="config_timeout_fmt">
+        <item quantity="other">%d sekund</item>
+        <item quantity="many">%d sekund</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="one">%d sekunda</item>
+    </plurals>
 
     <string name="config_refresh_title">Odświeżanie</string>
     <string name="config_refresh_desc">Aktualizuj okresowo migawkę</string>
-    <string name="config_refresh_fmt">Co %d minut</string>
+    <plurals name="config_refresh_fmt">
+        <item quantity="other">Co %d minut</item>
+        <item quantity="many">Co %d minut</item>
+        <item quantity="few">Co %d minuty</item>
+        <item quantity="one">Co minutę</item>
+    </plurals>
     <string name="config_refresh_warning">Wyższa częstotliwość zużywa więcej baterii.</string>
 
     <string name="render_interactive_label">Interaktywny</string>
